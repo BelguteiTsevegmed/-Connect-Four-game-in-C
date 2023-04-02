@@ -1,7 +1,7 @@
 # -Connect-Four-game-in-C
 "Connect Four' game written in C language, but the size of the board is not fixed and the player can change the size of the board as well as the length of the winning line. The winning line, instead of being a line of tiles in the same colour, now must be a palindrom, comprised of numbers "1" and "2".
 
-INSTRUCTION
+**Instruction**
 
 The game parameters ROWS, COLUMNS, and LENGTH are defined using symbolic constants, which can be defined using the -D option of the compiler.
 
@@ -22,7 +22,7 @@ the program receives the command to end the game, or
 one of the players wins.
 If one of the players wins, the program displays the final state of the board and indicates who won.
 
-INPUT FORMAT
+**Input format**
 
 The player commands are provided as input to the program. The program does not accept invalid input.
 
@@ -32,7 +32,7 @@ A move command is valid if the indicated column has a free space.
 
 The only character in an end game command is a period.
 
-OUTPUT FORMAT
+**Ouput format**
 
 The program outputs a sequence of board diagrams. After each diagram, a line indicates which player is to make a move or who has won.
 
